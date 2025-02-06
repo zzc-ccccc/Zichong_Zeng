@@ -41,7 +41,7 @@ const store = useResumeStore()
 
 // 初始化个人资料数据
 const profileData = ref({
-  name: '张三',
+  name: '曾紫翀',
   position: '全栈开发工程师',
   email: 'zhangsan@example.com',
   phone: '138-1234-5678',
