@@ -11,9 +11,6 @@
     <main class="main-content">
       <div v-if="currentView === 'profile'" class="profile-view">
         <ProfileSection :profile="profileData" />
-        <div class="action-buttons">
-          <button @click="currentView = 'editor'" class="edit-btn">开始编辑简历</button>
-        </div>
       </div>
 
       <div v-else class="editor-container">
