@@ -1,0 +1,5 @@
+.resume-preview {
+  min-height: 297mm; /* A4高度 */
+  background: white;
+  padding: 2rem;
+}
