@@ -5,7 +5,7 @@ import vue from '@vitejs/plugin-vue'
 export default defineConfig({
   plugins: [vue()],
   base: process.env.NODE_ENV === "production"
-  ? 'Zichong_Zeng'
+  ? '/Zichong_Zeng/'
   : '/'
 
 })
