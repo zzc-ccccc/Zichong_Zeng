@@ -1,7 +1,6 @@
 <template>
   <div class="resume-builder">
     <header class="header">
-      <h1>智能简历生成系统</h1>
       <nav class="nav-links">
         <button @click="currentView = 'profile'">个人主页</button>
         <button @click="currentView = 'editor'">简历编辑</button>
